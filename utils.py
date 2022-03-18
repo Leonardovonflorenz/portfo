@@ -14,7 +14,7 @@ import numpy as np
 from fuzzywuzzy import process
 
 
-movies = pd.read_csv('./data/movies_clusters_ratings.csv', index_col='movieid')  
+movies = pd.read_csv('/home/Leonardo85/portfo/data/movies_clusters_ratings.csv', index_col='movieid')  
 
 
 def match_movie_title(input_title, movie_titles):
