@@ -1,7 +1,5 @@
 from flask import Flask, render_template, url_for, request, redirect
 import csv
-from utils import movies, lookup_movieId, print_movie_titles
-from recommender import recommend_most_popular, recommend_random
 import requests
 
 
@@ -15,7 +13,7 @@ def my_home():
 
 @app.route("/<string:page_name>")
 def html_page(page_name,):
-    return render_template(page_name, movies=movies['title'].tolist())
+    return render_template(page_name)
 
 
 def write_to_file(data):
@@ -25,23 +23,6 @@ def write_to_file(data):
         message = data["message"]
         file = database.write(f"\n{email},{subject}, {message}")
 
-
-@app.route('/recommendations')
-def recommendations():
-    # read user input from url
-    print(request.args)
-
-    titles = request.args.getlist("title")
-    ratings = request.args.getlist("rating")
-
-    print(titles, ratings)
-
-    user_rating = dict(zip(titles, ratings))
-
-    print(user_rating)
-
-    recs = recommend_random(movies, user_rating, k=3)
-    return render_template('recommendations.html', recs=recs)
 
 
 def write_to_csv(data):
@@ -71,3 +52,13 @@ def submit_form():
         return redirect("/thankyou.html")
     else:
         return "something went wrong"
+
+
+#export FLASK_APP=server.py
+# export FLASK_ENV=development
+# flask run
+
+
+def variables():
+    var1='Supplier Info Dashboard'
+    return render_template('work1.html', var1=var1)
