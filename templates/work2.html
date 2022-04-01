@@ -11,39 +11,37 @@
 
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
-
+  
   <link rel="apple-touch-icon" sizes="180x180" href="./static/assets/apple-icon-180x180.png">
   <link href="./static/assets/favicon.ico" rel="icon">
 
-  <title>Movie Recomender</title>
+  <title>News Boot</title>  
 
-  <link href="./static/main.3f6952e4.css" rel="stylesheet">
-</head>
+<link href="./static/main.3f6952e4.css" rel="stylesheet"></head>
 
 <body class="">
-  <div id="site-border-left"></div>
-  <div id="site-border-right"></div>
-  <div id="site-border-top"></div>
-  <div id="site-border-bottom"></div>
-  <!-- Add your content of header -->
-  <header>
-    <nav class="navbar  navbar-fixed-top navbar-default">
-      <div class="container">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
-          aria-expanded="false">
+<div id="site-border-left"></div>
+<div id="site-border-right"></div>
+<div id="site-border-top"></div>
+<div id="site-border-bottom"></div>
+<!-- Add your content of header -->
+<header>
+  <nav class="navbar  navbar-fixed-top navbar-default">
+    <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbar-collapse">
-          <ul class="nav navbar-nav ">
-            <li><a href="./index.html" title="">01 : Home</a></li>
-            <li><a href="./works.html" title="">02 : Works</a></li>
-            <li><a href="./about.html" title="">03 : About me</a></li>
-            <li><a href="./contact.html" title="">04 : Contact</a></li>
-          </ul>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav ">
+          <li><a href="./index.html" title="">01 : Home</a></li>
+          <li><a href="./works.html" title="">02 : Works</a></li>
+          <li><a href="./about.html" title="">03 : About me</a></li>
+          <li><a href="./contact.html" title="">04 : Contact</a></li>
+        </ul>
 
 
           <ul class="nav navbar-nav navbar-right navbar-small visible-md visible-lg">
@@ -56,76 +54,98 @@
           </ul>
 
 
+      </div> 
+    </div>
+  </nav>
+</header>
+<div class="section-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <img src="./static/assets/images/work001-01.jpg" class="img-responsive" alt="">
+        <div class="card-container">
+          <div class="text-center">
+            <h1 class="h2">002 : Telegram News Boot</h1>
+          </div>
+          <p>Interactive Dashboard of the Northwind Database that is shipped along with Microsoft Access</p>
+
+          <blockquote>
+            <p>"Sorry Iḿ still working in this project"</p>
+            <small class="pull-right">Leonardo Quintero</small>
+          </blockquote>
         </div>
       </div>
-    </nav>
-  </header>
-  <div class="section-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <img src="./static/assets/images/work001-01.jpg" class="img-responsive" alt="">
-          <div class="card-container">
-            <div class="text-center">
-              <h1 class="h2">002 : Movie Recomender</h1>
-            </div>
-            <p>Nulla facilisi. Vivamus vestibulum, elit in scelerisque ultricies, nisl nunc pulvinar ligula, id sodales
-              arcu sapien in nisi. Quisque libero enim, mattis non augue posuere, venenatis dapibus urna.</p>
 
-            <blockquote>
-              <p>"please enter the name of 3 movies and enter a calification for each one and we will recomend you another 3 movies"</p>
-              <small class="pull-right">Leonardo Quintero</small>
-            </blockquote>
+      
+      
+      <div class="col-md-8 col-md-offset-2 section-container-spacer">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <img src="./static/assets/images/working.gif" class="img-responsive" alt="">
+            <p>I mean garfield is working on it</p>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <img src="./static/assets/images/rana.gif" class="img-responsive" alt="">
+            <p>I am just checking the CL</p>
           </div>
         </div>
+      </div>
 
-        <form action="/recommendations">
-          {% for i in range(3) %}
-          <input type="text" name="title" placeholder="Movie Title" required list="movies" />
-          <input type="range" name="rating" placeholder="Rating (1-5)" min="1" max="5" required />
-          <br /><br />
-          {% endfor %}
+      <div class="col-xs-12">
 
-          <button type="submit">Show recommendations</button>
-        </form>
+        <h1>about the project</h1>
+        <h2>description </h2>
+        <h3>other text </h3>
+        <p>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>  
 
-        <datalist id="movies">
-          {% for movie in movies %}
-          <option value="{{movie}}"></option>
-          {% endfor %}
-        </datalist>
 
 
 
 
 
+        <img src="./static/assets/images/work001-04.gif" class="img-responsive" alt="">
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<footer class="footer-container text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>© UNTITLED | Website created with <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a></p>
       </div>
     </div>
   </div>
+</footer>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     navActivePage();
+  });
+</script>
 
-
-
-
-  <footer class="footer-container text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <p>© UNTITLED | Website created with <a href="http://www.mashup-template.com/"
-              title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/"
-              title="Beautiful Free Images">Unsplash</a></p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function (event) {
-      navActivePage();
-    });
-  </script>
-
-  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
 
 <script>
   (function (i, s, o, g, r, a, m) {
@@ -138,8 +158,6 @@
   ga('send', 'pageview');
 </script>
 
--->
-  <script type="text/javascript" src="./static/main.70a66962.js"></script>
-</body>
+--> <script type="text/javascript" src="./static/main.70a66962.js"></script></body>
 
 </html>
