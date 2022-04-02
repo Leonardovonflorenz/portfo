@@ -4,6 +4,11 @@
 
 for the web page.
 
+One of the most common uses for Python is in its ability to create and manage data structures quickly, whoever Python is a popular multi-purpose programming language widely used for its flexibility, as well as its extensive collection of libraries. Deploying and make available the created reports from procurement controlling is a very important topic, this project used the Python Framework flask to control the Backend application.   
+
+
+
+
 Python as a programing language with the framework Flask used to manage the backend of page. 
 HTML coding
 Deploying on Python anywhere
