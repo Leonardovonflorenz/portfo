@@ -40,7 +40,12 @@ Workds like:
 power outage
 earthquake
 Tsunami 
-the monitoring should not just 
+<!-- the monitoring should not just 
+Risk Radar profiles and monitors your supply network to reveal risk in real time. Be more risk aware, counter threats more proactively and avoid costs.
+monitors your supply chain risk in real time so you can accurately understand your risk exposure and make the right decisions. -->
+
+
+
 
 if the information is matching and my company can probably be afected somebody in the company shuld recibe a message to act about it. 
 
