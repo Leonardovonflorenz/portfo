@@ -52,7 +52,7 @@ monitors your supply chain risk in real time so you can accurately understand yo
 
 
 
-if the information is matching and my company can probably be afected somebody in the company shuld recibe a message to act about it. 
+if the information is matching and my company can probably be afected somebody in the company shuld recibe a message to take and action about it. 
 
 003 Markeing Tweet collector 
 
